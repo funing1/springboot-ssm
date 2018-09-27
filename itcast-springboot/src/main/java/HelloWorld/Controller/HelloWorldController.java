@@ -13,7 +13,7 @@ public class HelloWorldController {
 	@Value("${url}")
 	private String url;
 
-	
+	//分支上传测试
 	@RequestMapping("info")
 	public String info(){
 		
